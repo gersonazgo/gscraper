@@ -2,7 +2,7 @@ require 'selenium-webdriver'
 require 'nokogiri'
 require 'capybara'
 
-puts 'Setting up GScrapper config...'
+puts 'Setting up gscraper config...'
 puts 'Big thanks to G!'
 sleep 3
 Capybara.register_driver :selenium do |app|
@@ -15,8 +15,8 @@ Capybara.configure do |config|
   config.default_driver = :selenium
 end
 
-@gscrapper = Capybara.current_session
-@driver = @gscrapper.driver.browser
+@gscraper = Capybara.current_session
+@driver = @gscraper.driver.browser
 Capybara.run_server = false
 puts 'Setup done. Ready to crawl.'
 
