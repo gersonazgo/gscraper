@@ -2,7 +2,6 @@ require 'selenium-webdriver'
 require 'nokogiri'
 require 'capybara'
 
-
 puts 'Setting up GScrapper config...'
 puts 'Big thanks to G!'
 sleep 3
