@@ -6,7 +6,7 @@ Installation requires a computer with ruby installed. Run `ruby -v` on your shel
 
 ### Install Chromedriver
 Chromedriver is required to get the scraper up and running. Get the latest version from [chromedriver website](https://chromedriver.storage.googleapis.com/index.html) and copy it to
-`/usr/local/bin`. To make sure its are working, reopen your shell (terminal) and type `chromedriver`.
+`/usr/local/bin`. To make sure its working, reopen your shell (terminal) and type `which chromedriver`.
 
 #### Mac Users Only
 If you're on a mac, you can try running `ruby lib/install.rb`. That will copy a sample working chromedriver version to `/usr/local/bin` for you.
