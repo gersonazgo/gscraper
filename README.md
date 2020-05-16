@@ -5,11 +5,14 @@ Small ruby wrapper around [Capybara](https://github.com/teamcapybara/capybara) t
 Installation requires a computer with ruby installed. Run `ruby -v` on your shell (terminal) to check if you have a valid ruby installation.
 
 ### Install Chromedriver
-Chromedriver is required to get the scraper up and running. Get the latest version from [chromedriver website](https://chromedriver.storage.googleapis.com/index.html) and copy it to
-`/usr/local/bin`. To make sure its working, reopen your shell (terminal) and type `which chromedriver`.
+Chromedriver is required to get the scraper up and running. 
 
-#### Mac Users Only
+#### Easy Installation
 If you're on a mac, you can try running `ruby lib/install.rb`. That will copy a sample working chromedriver version to `/usr/local/bin` for you.
+
+#### Updated Installation
+Get the latest version from [chromedriver website](https://chromedriver.storage.googleapis.com/index.html) and copy it to
+`/usr/local/bin`. To make sure its working, reopen your shell (terminal) and type `which chromedriver`.
 
 ### Install Gems
 The project uses a `Gemfile` to manage it's gem dependencies. This means you need to install the `bundler` gem and then run `bundle install`  
